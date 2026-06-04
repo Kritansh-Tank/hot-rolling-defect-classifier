@@ -99,3 +99,7 @@ Output: `submission.csv` with columns `CoilID, Y` (1 = defect, 0 = no defect).
 | Top-K over threshold | Threshold selection is unreliable when positive class is <5% of data |
 | `scale_pos_weight` ≈ 5–10 | Optuna found lower values work better than the naive ratio of 19.5 |
 | Anomaly scores as features | Adds unsupervised signal without any risk of label leakage |
+
+## License
+
+MIT License - See [LICENSE](./LICENSE.md) file for details
